@@ -5,10 +5,11 @@
 }
 
 .perfilContainer > img{
-    width: 6rem;
-    height: 6rem;
+    width: 5.5rem;
+    height: 5.5rem;
     border-radius:50%
 }
+
 .perfilContainer div{
      margin-left : 1.5rem;
 }
