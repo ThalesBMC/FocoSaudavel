@@ -50,7 +50,7 @@ export function ChallengesProvider({children, ...rest}: ChallengeProviderProps){
 
 
 
-    const experienceToNextLevel= Math.pow((level + 1) * 6, 2)
+    const experienceToNextLevel= Math.pow((level + 1) * 4, 2)
  
     useEffect(()=> {
         Notification.requestPermission()
