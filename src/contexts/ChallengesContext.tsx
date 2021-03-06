@@ -53,6 +53,9 @@ export function ChallengesProvider({children, ...rest}: ChallengeProviderProps){
     const experienceToNextLevel= Math.pow((level + 1) * 4, 2)
     
     useEffect(()=> {
+        if(!("Notification" in window)) {
+            return null
+          }
         Notification.requestPermission()
     },[])
     /* Baixa a biblioteca js-cookie para armazenar cookies ai posos usar isso para salvar*/
