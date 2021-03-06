@@ -51,11 +51,11 @@ export function ChallengesProvider({children, ...rest}: ChallengeProviderProps){
 
 
     const experienceToNextLevel= Math.pow((level + 1) * 4, 2)
- 
+    
     useEffect(()=> {
         Notification.requestPermission()
     },[])
-    /* Baixa a biblioteca js-cookie para armazenar cookies*/
+    /* Baixa a biblioteca js-cookie para armazenar cookies ai posos usar isso para salvar*/
     /* Algumas bibliotecas n tem typagem mas vc pode baixar elas usando o repositorio de typescript
     que a comunidade fez a typagem da maioria das bibliotecas, ai é yarn add @types/js-cookies -D */
     useEffect(()=>{
