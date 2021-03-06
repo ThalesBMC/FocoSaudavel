@@ -58,5 +58,10 @@
     "type": "body",
     "description": "Em pé, gire a cintura o máximo que puder para a esquerda, segure por cinco segundos. Repita para a direita.",
     "amount": 90
+  },
+  {
+    "type": "eye",
+    "description": "Pisque 10 vezes como se estivesse caindo no sono e observe um objeto a 6 metros por 20 segundos.",
+    "amount": 70
   }
 ]

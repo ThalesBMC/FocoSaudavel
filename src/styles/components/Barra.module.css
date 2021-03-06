@@ -1,6 +1,3 @@
-/* serve para que o css nao vaze para outros componentes e possam pegar a classe sem querer
-e no arquivo JS eu importo e uso como classe os estilos styles.barra e coloco entre chaves pq virou
- classe */
 
 .barra{
     display:flex;
