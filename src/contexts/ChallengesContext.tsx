@@ -62,9 +62,9 @@ export function ChallengesProvider({children, ...rest}: ChallengeProviderProps){
     /* Algumas bibliotecas n tem typagem mas vc pode baixar elas usando o repositorio de typescript
     que a comunidade fez a typagem da maioria das bibliotecas, ai é yarn add @types/js-cookies -D */
     useEffect(()=>{
-        Cookies.set('level', String(level));
-        Cookies.set('currentExperience', String(currentExperience));
-        Cookies.set('challengesCompleted', String(challengesCompleted));
+        Cookies.set('level', String(level),  { expires: 365 });
+        Cookies.set('currentExperience', String(currentExperience),  { expires: 365 });
+        Cookies.set('challengesCompleted', String(challengesCompleted),  { expires: 365 });
     },[level, currentExperience, challengesCompleted])
 
 
